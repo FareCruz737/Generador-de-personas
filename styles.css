@@ -1,0 +1,79 @@
+:root{
+--letras-1: font-family: 'Lato', sans-serif;  font-family: 'Open Sans', sans-serif; font-family: 'Roboto', sans-serif;
+}
+
+body{ 
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+background-image: url(https://www.xtrafondos.com/wallpapers/auto-en-carretera-con-el-cielo-nocturno-arte-digital-9880.jpg) ;
+background-repeat: no-repeat;
+background-size: cover;
+}   
+
+.caja-centro{
+position: relative;
+left: 150px;
+
+background-color: azure;
+border-radius: 20px;
+box-shadow: 3px 3px 3px black;
+
+height: 400px;
+width: 1000px;
+}
+
+
+
+ .presentacion-h1{
+text-align: center;
+font-family: var(--letras-1);
+font-weight: bolder;
+display: flex;
+position: relative;
+left: 170px;
+top: 100px;
+} 
+
+.caja-de-generador{
+display: grid;
+grid-template-columns: repeat(3,200px);
+justify-content: center;
+align-items: center;
+margin: 150px 0px;
+}
+
+p{
+
+font-family: var(--letras-1);
+font-weight: bold;
+}
+
+.centro-boton{
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+#generar{
+padding: 30px;
+margin: 30px 0px;
+margin-right: 80px;
+
+border-radius: 20px;
+border: none;
+cursor: pointer;
+
+font-size: 30px;
+font-weight: bolder;
+background-color:  #5aacac ;
+}
+
+#generar:hover{
+color:  #f7dc6f;
+background-color:  #2e4053;
+transition: 0.6s;
+
+}
